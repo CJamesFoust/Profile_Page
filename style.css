@@ -1,0 +1,312 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+}
+
+.container {
+    background-color: aqua;
+    display: inline;
+    height: 100%;
+    width: 100%;
+
+}.container2 {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    display: inline-flex;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.profile {
+    color: white;
+    font-size: 3rem;
+
+}
+
+.links {
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 45px;
+}
+
+.signOut {
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 162, 184);
+    border: 0 solid white;
+    padding: 3px 10px;
+    margin-left: 20px;
+}
+
+.side {
+    flex: 1;
+}
+
+.center {
+    flex: 5;
+    text-align: center;
+    display: flex;
+}
+
+.blueCenter {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border: 3px ridge gray;
+}
+
+.connReq {
+    flex: 2;
+    text-align: center;
+    background-color: chartreuse;
+    height: 225px;
+    border: 3px ridge gray;
+}
+
+.subCenterLeft {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.subCenterRight {
+    flex: 2;
+}
+
+.connReq1 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 75px;
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.connReq2 {
+    background-color: white;
+    color: black;
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.connReq3 {
+    background-color: white;
+    color: black;
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.connProp {
+    line-height: 30px;
+    font-size: 1.2rem;
+    flex: 6;
+}
+
+.two {
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+    border: 20px solid gray;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    font-size: 1.5rem;
+}
+
+.yourConnMain {
+    border: 3px ridge gray;
+    margin-top: 40px;
+}
+
+.yourConn {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 75px;
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.five {
+    background-color: gray;
+    border-radius: 50%;
+    height: 10px;
+    width: 55px;
+    border: 10px solid gray;
+    margin-left: 15px;
+    line-height: 10px;
+}
+
+.adrien {
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.anne {
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.alayne {
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.arry {
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.viewMore{
+    height: 75px;
+    line-height: 75px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    border-top: 3px ridge gray;
+}
+
+.imgCircle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    margin-left: 20px;
+}
+
+.check {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+}
+
+.decline {
+    position: absolute;
+    top: 50%;
+    transform: translate(130%, -50%);
+    margin-left: 50px;
+}
+
+.blueBox {
+    background-color: rgb(37, 162, 183);
+    height: 100px;
+    display: flex;
+}
+
+#user {
+    border: 3px solid gray;
+    border-radius: 50%;
+    display: flex;
+    top: -50px;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: -80px;
+}
+
+#jDoe {
+    font-size: 2em;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#seattle {
+    font-size: 1.2em;
+    margin-left: 5px;
+    display: inline;
+}
+
+#desc {
+    font-size: 0.8em;
+    margin-left: 30px;
+}
+
+#map {
+    margin-left: 30px;
+}
+
+#gear {
+    display: inline;
+    margin-left: 30px;
+}
+
+#edit {
+    font-size: 0.8em;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.education {
+    border: 3px ridge gray;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.educationStrip {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 55px;
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.schoolInfo {
+    margin-top: 20px;
+    height: 55px;;
+    display:block;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.dates {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 0px;
+}
+
+.stacks {
+    margin-top: 40px;
+}
